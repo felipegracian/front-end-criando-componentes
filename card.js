@@ -1,5 +1,7 @@
 'use strict'
 
+import {produtos} from './js/index.js'
+
 class card extends HTMLElement {
     constructor() {
         super()
@@ -80,5 +82,8 @@ class card extends HTMLElement {
     }
 
 }
+
+
+
 
 customElements.define('card-felipe', card);
